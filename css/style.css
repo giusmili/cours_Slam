@@ -42,6 +42,7 @@ figure{
 figure img{
 	display: inline-block;
 	max-width: 100%;
+	margin-top: 1.0rem;
 }
 section h2{
 	line-height: 3.5rem;
@@ -66,6 +67,7 @@ figcaption ul li:nth-child(2n+2){
 	filter: grayscale(100%);
 	color: #fafafa;
 	background: #222;
+	transition: all 1s ease-out;
 }
 header h1::before{
 	 content: '\00267F';

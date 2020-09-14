@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javscript</title>
+</head>
+<body>
+    <h1>Javascript les classes</h1>
+
+    <script>
+            class User{
+              //constructeur  
+             constructor(nom,prenom){
+                    this.nom = nom;
+                    this.prenom = prenom;
+                }
+                
+                //méthode de gestion
+                printout(){
+                    return `${this.nom}`
+                }
+              
+
+            }
+            let nouveau = new User("gius")
+            let last = new User("Julien")
+            console.log(nouveau.nom)
+            
+            //appel direct de la méthode
+            let affiche = nouveau.printout()
+            console.log(affiche)
+            let affiche_last = last.printout()
+            console.log(affiche_last)
+            console.log(typeof(nouveau))
+
+            //la base d'un objet
+            let produit={
+                nom: "pc",
+                marque: "Apple",
+                dispo: false,
+                print_f(){//méthode
+                     console.log(this.marque) 
+                 }
+
+
+            }
+            console.log(produit.nom)
+            produit.print_f()
+            //instance
+            let newProd = Object.create(produit);
+            newProd.marque ="Azus"
+            newProd.print_f()
+            
+         
+            
+            
+           
+    </script>
+</body>
+</html>
