@@ -1,0 +1,18 @@
+body{
+	font: 16px sans-serif;
+}
+#ask-weather {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#weather-result {
+  text-align: center;
+  font-size: 24px;
+}
+h1{
+	text-align: center;
+	font-weight: lighter;
+}

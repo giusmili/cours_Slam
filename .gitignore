@@ -1,2 +1,5 @@
 node_modules/
 *.json
+*.txt
+projet_js/
+controle-formulaire-exemple/
